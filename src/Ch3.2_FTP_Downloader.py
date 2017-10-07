@@ -36,7 +36,7 @@ def main():
         os.unlink(FILE)
         return
     print('***Downloaded "%s" to CWD' % FILE)
-
+    print("comments")
     f.quit()
 
 
